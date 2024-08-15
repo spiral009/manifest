@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="https://github.com/" />
+
+    <default revision="superior-extended-14.0" remote="github" sync-j="4" />
+
+    <!-- Hardware dependencies -->
+    <project name="spiral009/android_hardware_oplus" path="hardware/oplus" revision="superior-extended-14.0" />
+
+    <!-- Device dependencies -->
+    <project name="spiral009/android_device_realme_sm8250-common" path="device/realme/sm8250-common" revision="superior-extended-14.0" />
+    <project name="spiral009/android_device_realme_bitra" path="device/realme/bitra" revision="superior-extended-14.0" />
+
+    <!-- Vendor dependencies -->
+    <project name="spiral009/android_vendor_realme_bitra" path="vendor/realme/bitra" revision="aosp-14.0" />
+    <project name="spiral009/android_vendor_realme_sm8250-common" path="vendor/realme/sm8250-common" revision="aosp-14.0" />
+
+    <!-- Kernel dependencies -->
+    <project name="spiral009/kernel_realme_sm8250" path="kernel/realme/sm8250" revision="bigshot-AOSP" />
+
+</manifest>
